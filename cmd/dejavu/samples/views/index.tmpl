@@ -1,0 +1,12 @@
+{{define "samples/views/index.tmpl"}}
+    <html>
+    {{template "samples/views/header.tmpl"}}
+    <body>
+        <h1>Index</h1>
+{{.Testing}}
+<ul>
+{{range .Another}} <li>{{.}}</li> {{end}}
+</ul>
+    </body>
+    </html>
+{{end}}
