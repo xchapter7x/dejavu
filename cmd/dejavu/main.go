@@ -28,7 +28,10 @@ func init() {
 		viewpath = "views"
 	}
 }
-
+//version cache busting
+//auto miniification
+//header key auth
+//cors optional
 func main() {
 	router := gin.Default()
 	router.LoadHTMLGlob(viewpath + "**/*")
