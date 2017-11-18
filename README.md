@@ -2,10 +2,10 @@
 
 ## POC for a view rendering microservice
 
-the idea here is to completely decouple the `V` in MVC. Making the rendering and all templats 
+the idea here is to completely decouple the `V` in MVC. Making the rendering and all templates 
 independently renderable from disparate services to be composed up as per the clients desires. 
 This brings the added benefit of providing Horizontal scalability as well as a clearly defined 
-interface for interacting with your views.
+interface for rendering your views.
 
 well thats the idea anyway
 
@@ -14,7 +14,7 @@ well thats the idea anyway
 * configure it as you see fit if you like.
 
 ```
-$ git clone github.com/xchapter7x/purview
+$ git clone https://github.com/xchapter7x/purview.git
 $ cd purview/cmd/purview
 $ VIEW_PATH=samples/views go run main.go
 ```
